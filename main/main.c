@@ -63,6 +63,7 @@ boot(void)
 
 	kprintf("\n");
 	kprintf("OS/161 base system version %s\n", BASE_VERSION);
+	DEBUG(DB_VM, "OS/161 base system version: %u\n", BASE_VERSION
 	kprintf("%s", harvard_copyright);
 	kprintf("\n");
 
